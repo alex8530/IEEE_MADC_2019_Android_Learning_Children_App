@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Adkya</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_data">موقع الأذكياء مبادرة صادرة عن مجموعة الأذكياء تهدف لإثراء الفحوى التعليمي العربي وتعزيز مكانة الشبكة العنكبوتيّة العربيّة.\n\n\n  موقع الأذكياء يُعتبر الموقع التعليمي الأشمل والأكبر والأذكى في العالم العربي وذلك على مستوى المواد والمضامين، بحيث يضمّ أكثر من 25,000 سؤال وتمرين في أكثر من 300 مهارة تعليميّة من صف الأول حتى السادس الابتدائي. \n \n \n يشمل الموقع دروس محوسبة، ملفات تعليميّة مطبوعة، أسئلة وتمارين، والعديد من الوسائط التعليميّة الأخرى مثل التطبيقات التعليميّة، الفيديوهات المرئيّة،</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="class1">الصف الأول</string>
+    <string name="class2">الصف الثاني</string>
+    <string name="class3">الصف الثالت</string>
+    <string name="class4">الصف الرابع</string>
+    <string name="class5">الصف الخامس</string>
+    <string name="class6">الصف السادس</string>
+
+
+    <!--&lt;!&ndash;<string name="facebook_app_id">230668354542946</string>&ndash;&gt; this is old one-->
+
+
+    <string name="facebook_app_id">671553076274307</string>
+    <string name="fb_login_protocol_scheme">fb671553076274307</string>
+
+
+    <string name="google_client_id2">87183878812-ihm4jla2rub6bf3kq0kfpnr02vnprnmn.apps.googleusercontent.com</string>
+    <string name="google_client_id">87183878812-is1tomusfoi7iaj65due40os3elml3ol.apps.googleusercontent.com</string>
+
+
+</resources>

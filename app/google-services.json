@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "87183878812",
+    "firebase_url": "https://adkya-252509.firebaseio.com",
+    "project_id": "adkya-252509",
+    "storage_bucket": "adkya-252509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87183878812:android:9ce8aa72109991c0fa5b59",
+        "android_client_info": {
+          "package_name": "com.arapeak.adkya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87183878812-2p7ckigroql71a7d2eb6ba70i6v9iib9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arapeak.adkya",
+            "certificate_hash": "f310bcbdb09330b6d9e08e0e24c2c9a22e356175"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiZR1212_8HpT0Rs296n72KOaaewlGOU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87183878812-is1tomusfoi7iaj65due40os3elml3ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

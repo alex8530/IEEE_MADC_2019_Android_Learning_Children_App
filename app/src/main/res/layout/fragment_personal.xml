@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+          android:layout_height="match_parent"
+         android:background="#F6F6F8"
+        android:orientation="vertical"
+        android:weightSum="100"
+        tools:context=".ui.fragments.PersonalFragment">
+
+
+        <!--toolbar-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="29dp"
+            android:background="@drawable/shape_green"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2d1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imageView9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/notifi_icon" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="55dp" />
+
+            <ImageView
+                android:id="@+id/menubar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.9"
+                app:srcCompat="@drawable/ic_menubar" />
+
+            <TextView
+
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="الاحصائيات"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/menubar"
+                app:layout_constraintEnd_toStartOf="@+id/menubar"
+                app:layout_constraintTop_toBottomOf="@+id/menubar" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layoutDirection="rtl"
+         android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+         android:layout_marginEnd="8dp"
+        android:background="@drawable/shape_white_back"
+         android:outlineProvider="none"
+        app:layout_constraintBottom_toTopOf="@+id/guideline21"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/g29">
+
+        <LinearLayout
+
+          android:id="@+id/linearLayout5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+            android:background="#fff"
+            android:backgroundTint="#fff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"
+
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+
+                android:padding="5dp"
+
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/shape_gray"
+                 android:layoutDirection="rtl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+
+                <LinearLayout
+
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="المعدل العام"
+                            android:textColor="#949494"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginEnd="5dp"
+                            android:id="@+id/tv_rate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0.0%"
+                            android:textColor="@color/greenColor"
+                            android:textSize="14sp" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <SeekBar
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="6dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:id="@+id/seekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layoutDirection="rtl"
+                    android:max="100"
+                    android:progress="30"
+                    android:progressBackgroundTint="#000"
+                    android:progressTint="#118D51"
+                    android:scaleY="5"
+                    android:thumb="@android:color/transparent" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:padding="5dp"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                android:background="@drawable/shape_gray"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="الوقت المنقضي"
+                    android:textColor="#949494"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:src="@drawable/ic_clock_circular_outline" />
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:lineSpacingExtra="3.3sp"
+                        android:text="00:00:00"
+                        android:textColor="#172735"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="الاسم"
+        android:textColor="#172735"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/circularImageView"
+        app:layout_constraintStart_toStartOf="@+id/circularImageView"
+        app:layout_constraintTop_toBottomOf="@+id/circularImageView" />
+
+    <TextView
+        android:id="@+id/tv_classroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:text="الصف"
+        android:paddingBottom="10dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_name"
+        app:layout_constraintStart_toStartOf="@+id/tv_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/circularImageView"
+        android:src="@drawable/boy"
+        app:civ_border_width="0dp"
+        app:civ_shadow="false"
+        app:civ_shadow_radius="8"
+        app:civ_shadow_color="@android:color/transparent"
+        android:outlineProvider="none"
+        app:layout_constraintBottom_toTopOf="@+id/g29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/g29"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.47" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2d1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="263dp" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+         android:layout_marginEnd="8dp"
+         android:orientation="vertical"
+         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:gravity="center"
+            android:text="مستويات التقدم"
+            android:textSize="15sp" />
+        <LinearLayout
+
+            android:background="@drawable/shape_white_back"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.tabs.TabLayout
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/shape_white_back"
+
+                android:id="@+id/tabLayout">
+
+            </com.google.android.material.tabs.TabLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:rotationY="0"
+                android:background="@drawable/shape_white_back"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 android:id="@+id/viewpager">
+
+            </androidx.viewpager.widget.ViewPager>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

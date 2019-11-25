@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_signup"
+
+    android:layout_width="match_parent" >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layoutDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_signup"
+        tools:context=".ui.activites.ActivateActivity">
+
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="72dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/padlock" />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center"
+
+            android:text="يرجى ادخال الكود الذي تم ارساله الى بريدك الإلكتروني"
+            android:textColor="#172735"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="48dp"
+
+            android:theme="@style/TextLabe2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_code"
+                android:fontFamily="@font/cairo_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/mail"
+                android:drawablePadding="7dp"
+                android:hint="الكود المرسل مثال : 998856"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_activate"
+            android:layout_width="0dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/shape_enter_btn"
+            android:text="تفعيل الحساب"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/textinput"
+            app:layout_constraintStart_toStartOf="@+id/textinput"
+            app:layout_constraintTop_toBottomOf="@+id/textinput" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv_resend_code"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="اضغط هنا لإعادة ارسال كود التفعيل"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="@+id/btn_activate"
+            app:layout_constraintStart_toStartOf="@+id/btn_activate"
+            app:layout_constraintTop_toBottomOf="@+id/btn_activate" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

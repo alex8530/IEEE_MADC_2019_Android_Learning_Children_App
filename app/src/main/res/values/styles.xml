@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="android:actionMenuTextAppearance">@font/cairo_regular</item>
+
+        <item name="android:fontFamily">@font/cairo_regular</item>
+
+        <!--this is for animation-->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!--this is for change color of  TextinputLayout's-->
+        <item name="colorControlNormal">@color/my_gray</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/my_gray</item>
+        <item name="android:fontFamily">@font/cairo_regular</item>
+        <!-- Inactive underline color-->
+        <item name="colorControlNormal">@color/gray_light</item>
+        <!-- Cursor and Active underline color, uses colorAccent by default if not defined-->
+
+        <item name="colorControlActivated">@color/statusbarColor</item>
+    </style>
+
+    <style name="TextLabe2" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/my_gray</item>
+        <item name="android:fontFamily">@font/cairo_regular</item>
+        <!-- Inactive underline color-->
+        <item name="colorControlNormal">@color/gray_light</item>
+        <!-- Cursor and Active underline color and hint color .. uses colorAccent by default if not defined-->
+        <item name="colorControlActivated">@color/color_plue_for_textinput</item>
+    </style>
+
+    <!--add custom style to radio button-->
+
+
+    <style name="MyRaidoButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:colorControlNormal">#BBBBBB</item>
+        <item name="android:colorControlActivated">#02C59D</item>
+        <item name="android:colorControlHighlight">#EB3B3B</item>
+        <item name="android:textColorPrimaryDisableOnly">#000</item>
+
+    </style>
+
+
+</resources>

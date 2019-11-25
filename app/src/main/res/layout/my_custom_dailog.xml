@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/shape_white_back"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="اختر الصف"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/shape_cancel_btn"
+        android:text="إلغاء"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ok"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/shape_enter_btn"
+        android:text="موافق"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup2"
+        app:layout_constraintStart_toEndOf="@+id/btn_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="0dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <RadioButton
+            android:id="@+id/class1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:paddingStart="5dp"
+            android:text="@string/class1"
+            android:textColor="#727272"
+            android:textSize="16sp"
+            android:theme="@style/MyRaidoButton" />
+
+        <RadioButton
+            android:id="@+id/class2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:layoutDirection="rtl"
+            android:paddingStart="5dp"
+            android:text="@string/class2"
+            android:textColor="#727272"
+            android:textSize="16sp"
+            android:theme="@style/MyRaidoButton" />
+
+        <RadioButton
+            android:id="@+id/class3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+
+            android:paddingStart="5dp"
+            android:text="@string/class3"
+            android:textColor="#727272"
+            android:textSize="16sp"
+            android:theme="@style/MyRaidoButton" />
+
+        <RadioButton
+            android:id="@+id/class4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:layoutDirection="rtl"
+            android:paddingStart="5dp"
+            android:text="@string/class4"
+            android:textColor="#727272"
+            android:textSize="16sp"
+            android:theme="@style/MyRaidoButton" />
+
+        <RadioButton
+            android:id="@+id/class5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:paddingStart="5dp"
+            android:text="@string/class5"
+            android:textColor="#727272"
+            android:textSize="16sp"
+            android:theme="@style/MyRaidoButton" />
+
+        <RadioButton
+            android:id="@+id/class6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:paddingStart="5dp"
+            android:text="@string/class6"
+            android:textColor="#727272"
+            android:textSize="16sp"
+            android:theme="@style/MyRaidoButton" />
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
