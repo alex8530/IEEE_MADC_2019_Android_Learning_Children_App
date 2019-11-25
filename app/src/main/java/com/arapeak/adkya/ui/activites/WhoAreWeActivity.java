@@ -34,9 +34,9 @@ TextView tv_description;
         });
 
         tv_description=findViewById(R.id.tv_description);
-
+         tv_description.setText("Hi , I am Alex .. I am Google Certified Android Developer And Computer Engineer");
         //get disc from internet
-        sendAboutAsRequst();
+    //    sendAboutAsRequst();
 
     }
 
