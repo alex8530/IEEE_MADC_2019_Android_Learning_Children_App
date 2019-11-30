@@ -1,10 +1,10 @@
 #    Adkya
-## Intelligent educational application
+## Intelligent Educational Application
 ![alt text](https://6.top4top.net/p_14293alz41.png)
 
  
 
-# The aim of this app (intelligent application)
+# The Aim of This App (Intelligent Application)
 Enrichment the Arabic educational content, and upgrading the educational field by reaching the students through a sophisticated and attractive android application which is educational in the first place.
 The application contains two main sections:
 The first section is the intelligence section: it is an IQ test with specific time and a specific number of questions, all students will enroll in the challenge in this section and do their best and use brainstorming to compete for the top positions.
