@@ -5,6 +5,7 @@
  
 
 # The Aim of This App (Intelligent Application)
+## Let your child smart !!
 Enrichment the Arabic educational content, and upgrading the educational field by reaching the students through a sophisticated and attractive android application which is educational in the first place.
 The application contains two main sections:
 The first section is the intelligence section: it is an IQ test with specific time and a specific number of questions, all students will enroll in the challenge in this section and do their best and use brainstorming to compete for the top positions.
