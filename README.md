@@ -30,7 +30,7 @@ The second section is the educational material section: contain four educational
 
 # Team
 
-[Alex on Githup](https://github.com/alex8530/)
+[Alex on Github](https://github.com/alex8530/)
 
 # Promotional Video
 [Video on Youtube](https://www.youtube.com/watch?v=qUkKAau_fmE/)
