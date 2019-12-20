@@ -1,5 +1,5 @@
-#  Adkya
-## Intelligent Educational Application
+#  Adkya  
+### Intelligent Educational Application
 ![alt text](https://6.top4top.net/p_14293alz41.png)
 
  [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)
