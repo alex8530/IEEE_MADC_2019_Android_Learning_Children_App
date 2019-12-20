@@ -162,4 +162,4 @@ SOFTWARE.
  
 | App Name      | Repo name     |description    | Team          |MIT License     |   
 | ------------- | ------------- | ------------- | ------------- |  ------------- |  
-| [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)| [GitHub link](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)  | [Disclaimer](#disclaimer)  |[Team](#team)|[License](#license)  |  
+| [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)| [GitHub link](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)  | [Disclaimer](#disclaimer)  |[Alex Abu Harb](https://github.com/alex8530/)|[License](#license)  |  
