@@ -61,6 +61,30 @@ The second section is the educational material section: contain four educational
  
 </p>
 
+
+## Web
+####  Screenshots on Web
+- This App also available on web >> you can check this link [https://adkya.com](https://adkya.com).
+ 
+<p float="left">
+  <img src="https://www4.0zz0.com/2019/12/20/23/664813010.png"   />
+  <img src="https://www4.0zz0.com/2019/12/20/23/876435130.png"   />
+   <img src="https://www4.0zz0.com/2019/12/20/23/660411328.png"   />
+ 
+   <img src="https://www4.0zz0.com/2019/12/20/23/847833170.png"   />
+   
+   <img src="https://www4.0zz0.com/2019/12/20/23/986645629.png"   />
+   
+   <img src="https://www4.0zz0.com/2019/12/20/23/346996645.png"   />
+   
+   <img src="https://www4.0zz0.com/2019/12/20/23/797181609.png"   />
+   
+   <img src="https://www4.0zz0.com/2019/12/20/23/457871780.png"   />
+
+  
+
+</p>
+
 # Installation_Guidelines:
 - There are some tools needed, no matter what is your specific IDE or build tool of preference.
   [Git](https://git-scm.com/)  is used to access to the different versions of the Adkya's source code. Download and install the version appropriate for your operating system from here. 
@@ -91,6 +115,7 @@ The second section is the educational material section: contain four educational
 [GitHub link](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-200x33.png?v=103)](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)  
+
 
 
 
