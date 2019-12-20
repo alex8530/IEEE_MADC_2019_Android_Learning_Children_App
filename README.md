@@ -1,19 +1,19 @@
-#    Adkya
+#  Adkya
 ## Intelligent Educational Application
 ![alt text](https://6.top4top.net/p_14293alz41.png)
 
  [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)
 
 
-# The Aim of This App (Intelligent Application)
-## Let your child smart !!
+# Objectives
+### Let your child smart !!
 Enrichment the Arabic educational content, and upgrading the educational field by reaching the students through a sophisticated and attractive android application which is educational in the first place.
 The application contains two main sections:
 The first section is the intelligence section: it is an IQ test with specific time and a specific number of questions, all students will enroll in the challenge in this section and do their best and use brainstorming to compete for the top positions.
 The second section is the educational material section: contain four educational materials and every main section contains many sub-sections, and when choosing one of the sub-sections, the student enters the stage of solving tests.
 
 
-# Merits of the application
+# Merits 
 - intelligence application is based on the idea of discovering and devising intelligence and developing thinking, which targets the students from the age of seven to the age of twelve years, the application contains more than 25,000 questions and exercises in more than 300 educational skills from the first to the sixth primary grade.
 
 
@@ -32,7 +32,7 @@ The second section is the educational material section: contain four educational
 
 [Alex on Github](https://github.com/alex8530/)
 
-# Promotional Video
+# Promotional_Video
 [Video on Youtube](https://www.youtube.com/watch?v=qUkKAau_fmE/)
  
 
@@ -61,7 +61,7 @@ The second section is the educational material section: contain four educational
  
 </p>
 
-# Installation Guidelines:
+# Installation_Guidelines:
 - There are some tools needed, no matter what is your specific IDE or build tool of preference.
   [Git](https://git-scm.com/)  is used to access to the different versions of the Adkya's source code. Download and install the version appropriate for your operating system from here. 
 
@@ -98,7 +98,7 @@ The second section is the educational material section: contain four educational
 Adkya is a product designed and developed by Alex Abu Harb.  All photos used in the app or promotional collaterals are open-source and royalty free.
 
  
-## License
+# License
 MIT License
 
 Copyright (c) 2020 Alex Abu Harb
@@ -120,4 +120,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+ 
 
+# Table of Contents
+- [App Name](#adkya)
+- [Objectives](#objectives)
+- [Merits](#merits)
+- [Team](#team)
+- [Promotional_Video](#promotional_video)
+- [Screenshots](#screenshots)
+- [Download](#download)
+- [Installation_Guidelines](#installation_guidelines)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+
+ 
