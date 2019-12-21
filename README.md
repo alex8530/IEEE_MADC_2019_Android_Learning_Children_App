@@ -164,4 +164,4 @@ SOFTWARE.
  # Table 
 | App Name      | Repo name     |description    | Team          |MIT License     |   
 | ------------- | ------------- | ------------- | ------------- |  ------------- |  
-| [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)| [GitHub link](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)  | developing the scientific and practical skills of children and making them able to think in a creative way  |[Alex Abu Harb](https://github.com/alex8530/)|[License](#license)  |  
+| [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)| [GitHub link](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)  | developing the scientific and practical skills of children and making them able to think in a creative way  |[Alex](https://github.com/alex8530/)|[License](#license)  |  
