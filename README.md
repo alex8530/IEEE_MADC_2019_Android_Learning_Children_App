@@ -4,6 +4,18 @@
 
  [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)
 
+# Table of Contents
+- [App Name](#adkya)
+- [Objectives](#objectives)
+- [Merits](#merits)
+- [Team](#team)
+- [Promotional_Video](#promotional_video)
+- [Screenshots](#screenshots)
+- [Download](#download)
+- [Installation_Guidelines](#installation_guidelines)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+- [Table](#table)
 
 # Objectives
 ### Let your child smart !!
@@ -126,7 +138,7 @@ Adkya is a product designed and developed by Alex Abu Harb.  All photos used in 
 # License
 MIT License
 
-Copyright (c) 2020 Alex Abu Harb
+Copyright (c) 2019 Alex Abu Harb
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -147,19 +159,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  
 
-# Table of Contents
-- [App Name](#adkya)
-- [Objectives](#objectives)
-- [Merits](#merits)
-- [Team](#team)
-- [Promotional_Video](#promotional_video)
-- [Screenshots](#screenshots)
-- [Download](#download)
-- [Installation_Guidelines](#installation_guidelines)
-- [Disclaimer](#disclaimer)
-- [License](#license)
 
- 
+
+ # Table 
 | App Name      | Repo name     |description    | Team          |MIT License     |   
 | ------------- | ------------- | ------------- | ------------- |  ------------- |  
-| [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)| [GitHub link](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)  | [Disclaimer](#disclaimer)  |[Alex Abu Harb](https://github.com/alex8530/)|[License](#license)  |  
+| [![Download it on Google Play](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/images/gplay.png)](https://play.google.com/store/apps/details?id=com.arapeak.adkya)| [GitHub link](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)  | developing the scientific and practical skills of children and making them able to think in a creative way  |[Alex Abu Harb](https://github.com/alex8530/)|[License](#license)  |  
